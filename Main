@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site oficial do RPG medieval">
+    <title>RPG Medieval</title>
+    <style>
+        body {
+            background-color: #f4f1de;
+            color: #333;
+            font-family: 'Garamond', serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6d4c41;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            border-bottom: 5px solid #3e2723;
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #3e2723;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #f4f1de;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        section h2 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            color: #3e2723;
+        }
+        footer {
+            background-color: #6d4c41;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            background-color: #3e2723;
+            color: #f4f1de;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #4e342e;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nome do RPG Medieval</h1>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#regras">Regras</a>
+        <a href="#personagens">Personagens</a>
+        <a href="#mundo">Mundo</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o RPG</h2>
+        <p>Bem-vindo ao mundo de fantasia do nosso RPG medieval! Aqui, cavaleiros, magos e criaturas místicas coexistem em uma terra cheia de aventuras e desafios. Venha explorar este universo fascinante e crie sua própria história!</p>
+    </section>
+
+    <section id="regras">
+        <h2>Regras do Jogo</h2>
+        <p>Nossas regras são simples e focam em proporcionar a melhor experiência para todos. Veja as principais mecânicas que regem o jogo, como criação de personagens, combate e magia.</p>
+    </section>
+
+    <section id="personagens">
+        <h2>Personagens</h2>
+        <p>Escolha entre diversas classes e raças para criar seu personagem único. Seja um guerreiro destemido, um arqueiro ágil ou um mago poderoso. Cada escolha impacta diretamente sua jornada.</p>
+    </section>
+
+    <section id="mundo">
+        <h2>O Mundo do RPG</h2>
+        <p>Descubra o vasto mundo onde as aventuras acontecem. Das florestas encantadas aos castelos sombrios, este mundo está repleto de mistérios e perigos à espera dos mais corajosos aventureiros.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Quer saber mais ou participar? Entre em contato conosco e fique por dentro de todas as novidades!</p>
+        <button class="btn">Entre em Contato</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RPG Medieval. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
